@@ -1,0 +1,187 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    height: 280px;
+    background-size:cover;
+ 
+} 
+
+.box2{
+    background-color:hsl(275, 100%, 97%);
+    height: 444px;
+}
+
+.box3{
+    height: 450px;
+    max-width: 500px;
+    align-self: center;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background-color:hsl(0, 0%, 100%);
+    position: absolute;
+    top: 150px;
+    /* left: 389px; */
+    box-shadow:4px 4px 30px rgb(70, 69, 69);
+    padding-bottom: 20px;
+    padding-right:20px ;
+}
+.star{
+    margin-top: 3px;
+}
+
+.q{
+    font-size: 40px;
+    color:hsl(292, 42%, 14%);
+    /* margin-top: 2px; */
+    font-weight: 700;
+}
+.f{
+    display: flex;
+    gap:20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.header1{
+    display: flex;
+    /* gap: 82px; */
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 28px;
+    color:hwb(292 8% 80%);
+    font-size: 16px;
+    font-weight: 400;
+    /* background-color: blue; */
+}
+
+.r{
+    margin-top: 6px;
+}
+
+.para{
+    margin-left: 20px;
+    margin-top: 28px; 
+    margin-bottom: 40px;
+}
+
+.para p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(107, 103, 103);
+}
+
+.h1{
+    margin-left: 20px;
+    margin-top: 28px; 
+    font-weight: 400;
+    color: hsl(292, 42%, 14%);
+}
+
+.h h4{
+    margin-top: 6px;
+}
+
+.h{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hs h4{
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.hs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ht h4{
+    margin-top: 6px;
+}
+
+.ht{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* when using media  query min width means from 1440px and above */
+
+
+
+/* when using media  query max width means from 375px and downwards */
+@media(max-width:375px){
+    .box3{
+        max-width: 200px;
+    }
+
+    .f{
+        gap:10px;
+    }
+
+    .q{
+        font-size: 20px;
+        /* color:hsl(292, 42%, 14%); */
+        margin-top: 10px;
+        font-weight: 700;
+    }
+
+    .header1{
+        /* background-color: blue; */
+        gap:11px;
+    }
+
+    .r{
+        font-size: 11px;
+        width:700px;
+        /* background-color: red; */
+    }
+
+    .header1 img{
+        height: 20px;
+        width: 20px;
+        margin-top: 9px;
+    }
+
+    .para p{
+        font-size: 9.9px;
+    }
+
+    .h{
+        gap: 25px;
+    }
+
+    .h1 h4{
+        font-size: 11px;
+        margin-top: 12px;
+    }
+
+    .h1 img{
+        height: 20px;
+        width: 20px;
+        margin-top: 9px;
+    }
+
+    .free h4{
+        font-size: 11px;
+        /* background-color: blue; */
+    }
+
+    .hs{
+        gap:3px;
+    }
+
+    .ht{
+        gap:4px;
+    }
+   
+}
